@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+* {
+    font-family: 'Space Grotesk', sans-serif;
+    ;
+}
+
+nav {
+    background-color: #f7f7f7;
+}
+
+.nav-link {
+    color: black;
+}
+
+body {
+    background-color: #DFCCFB;
+}
+
+.search {
+    border-radius: 0;
+    background-color: #fff;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.filtering {
+    border-radius: 0;
+    height: 100vh;
+}
+
+.list-group {
+    background-color: #dddddd;
+}
+
+.kategorilist {
+    color: black;
+}
+
+.container-ku {
+    max-width: 1000px;
+}
+
+.item-list {
+    border-radius: 0;
+}
+
+.btn-beli {
+    width: 100%;
+    border-radius: 0;
+    background-color: #a08ce6;
+}
+
+.btn-beli:hover {
+    width: 100%;
+    border-radius: 0;
+    background-color: #7563b9;
+    color: #fff;
+}
+
+.modal-content {
+    border-radius: 0;
+    border: 4px black solid;
+}
+
+.form-login {
+    border-radius: 0px;
+    border: black solid;
+}
+
+.btn-login {
+    width: 100%;
+    border: black solid;
+    border-radius: 0;
+    background-color: #7563b9;
+}
+
+.btn-login:hover {
+    width: 100%;
+    border-radius: 0;
+    background-color: #4e4080;
+    border: black solid;
+}
+
+/* Mobile First Approach: Styles for small screens (up to 767px) */
+
+/* Adjust the font size for smaller screens */
+@media (max-width: 767px) {
+    body {
+        font-size: 20px;
+    }
+
+    .search {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        /* Adjust position and other styles as needed for smaller screens */
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    /* Other style adjustments for smaller screens */
+    .filtering {
+        height: auto;
+        /* Adjust the height as needed for smaller screens */
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+    .list-group {
+        /* Adjust background-color and other styles for smaller screens */
+        background-color: #f2f2f2;
+    }
+
+    .kategorilist {
+        /* Adjust font size or other styles for smaller screens */
+        font-size: 14px;
+    }
+
+    .item-list {
+        /* Adjust styles for smaller screens */
+        width: 100%;
+        /* Make the item full width on small screens */
+        margin-bottom: 15px;
+        /* Add some spacing between items */
+    }
+
+    .card-title {
+        /* Adjust font size or other styles for smaller screens */
+        font-size: 16px;
+    }
+
+    .card-text {
+        /* Adjust font size or other styles for smaller screens */
+        font-size: 14px;
+    }
+
+}
+
+/* Tablet and Larger Screens (768px and up) */
+@media (min-width: 768px) {
+
+    /* Increase font size for tablets and larger screens */
+    body {
+        font-size: 16px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+    }
+
+    /* Add any other style adjustments for tablets and larger screens here */
+}
